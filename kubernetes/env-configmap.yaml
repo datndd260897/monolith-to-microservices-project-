@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: datndd-s3-bucket
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: datndd-posgre-cloud3.cz9wjw3q20tg.us-east-1.rds.amazonaws.com
+  URL: default
+metadata:
+  name: env-config
